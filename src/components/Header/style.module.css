@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 980px;
+  padding-top: 17px;
+  margin-bottom: 172px;
+}
+
+.button {
+  text-decoration: none;
+  color: #000;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+}
+.button > svg {
+  margin-left: 0.5em;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo > div {
+  font-weight: bolder;
+  font-size: 4ch;
+  font-variant-caps: all-petite-caps;
+  margin-left: 1em;
+}

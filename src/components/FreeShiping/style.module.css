@@ -1,0 +1,22 @@
+.container {
+  background-color: #000;
+  width: 100%;
+  height: 235px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: 24px;
+}
+
+.free {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.smaller {
+  margin-top: 0.7em;
+  color: rgb(200, 200, 200);
+  font-size: 18px;
+}

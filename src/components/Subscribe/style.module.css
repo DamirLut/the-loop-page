@@ -1,0 +1,34 @@
+.container {
+  background-color: #000;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.container > div {
+  font-size: 30px;
+  margin-right: 60px;
+}
+
+.container > input {
+  width: 255px;
+  height: 40px;
+  background-color: #f9f6f1;
+  color: #8d8d8d;
+  border: none;
+  margin-right: 35px;
+  padding: 1em;
+}
+
+.container > button {
+  border: none;
+  width: 185px;
+  height: 40px;
+  background-color: #d7b399;
+  color: #fff;
+  font-size: 14px;
+}

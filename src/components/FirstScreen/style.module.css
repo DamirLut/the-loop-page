@@ -1,0 +1,78 @@
+.container {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textContainer > div {
+  font-size: 30px;
+  margin-bottom: 35px;
+  font-family: 'montserratregular';
+}
+.textContainer > span {
+  font-weight: bolder;
+  font-size: 55px;
+  margin-bottom: 55px;
+}
+
+.textContainer > button {
+  border: none;
+  width: 240px;
+  height: 55px;
+  background-color: #d7b399;
+  color: #fff;
+}
+
+.shoesContainer {
+  position: relative;
+}
+
+.shoesContainer > div {
+  position: absolute;
+  right: 2em;
+  top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: bolder;
+}
+
+.shoesContainer > div > del {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+.shoesContainer > div > span {
+  font-size: 42px;
+  color: #d84033;
+}
+
+.slider {
+  width: 205px;
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-element {
+  width: 40px;
+  height: 7px;
+  background: #cecece;
+}
+
+.slider-active {
+  background-color: #d7b399;
+}
