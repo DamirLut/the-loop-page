@@ -15,7 +15,7 @@ function App() {
       <Catalog />
       <NewItem title="Новые модели" />
       <Subscribe />
-      <NewItem title="Скидка до 90%" />
+      <NewItem title="Скидки до 90%" />
       <Footer />
     </>
   );

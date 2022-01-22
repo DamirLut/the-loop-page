@@ -10,7 +10,7 @@ function CollectionInfo({ title, image, right, color }) {
       <div className={style.wrapper} style={{ right }}>
         <div className={style.info}>
           <div className={style.collection}>
-            <span>{title}</span> коллекия
+            <span>{title}</span> коллекция
           </div>
           <div className={style['collection-info']}>Обувь, полуверы, костюмы</div>
           <button>
